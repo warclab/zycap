@@ -1,0 +1,40 @@
+##############################################################################
+## Filename:          F:\RESEARCH\3.Xilinx\Zynq\zed_custom_pr_icap\pcores/zycap_v1_00_a/data/zycap_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Aug 07 11:13:27 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+## Helper Libraries
+lib proc_common_v3_00_a all
+lib axi_datamover_v4_02_a all
+lib axi_sg_v4_03_a all
+#zycap
+lib zycap_v1_00_a icap_ctrl verilog
+###############################################################################
+## AXI DMA Core
+lib zycap_v1_00_a zycap.vhd vhdl
+lib zycap_v1_00_a axi_dma_pkg.vhd vhdl
+lib zycap_v1_00_a axi_dma_reset.vhd vhdl
+lib zycap_v1_00_a axi_dma_rst_module.vhd vhdl
+lib zycap_v1_00_a axi_dma_lite_if.vhd vhdl
+lib zycap_v1_00_a axi_dma_afifo_autord.vhd vhdl
+lib zycap_v1_00_a axi_dma_register.vhd vhdl
+lib zycap_v1_00_a axi_dma_register_s2mm.vhd vhdl
+lib zycap_v1_00_a axi_dma_reg_module.vhd vhdl
+lib zycap_v1_00_a axi_dma_skid_buf.vhd vhdl
+lib zycap_v1_00_a axi_dma_sofeof_gen.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm.vhd vhdl
+lib zycap_v1_00_a axi_dma_smple_sm.vhd vhdl
+lib zycap_v1_00_a axi_dma_mm2s_sg_if.vhd vhdl
+lib zycap_v1_00_a axi_dma_cmd_split.vhd vhdl
+lib zycap_v1_00_a axi_dma_mm2s_sm.vhd vhdl
+lib zycap_v1_00_a axi_dma_mm2s_cmdsts_if.vhd vhdl
+lib zycap_v1_00_a axi_dma_mm2s_sts_mngr.vhd vhdl
+lib zycap_v1_00_a axi_dma_mm2s_cntrl_strm.vhd vhdl
+lib zycap_v1_00_a axi_dma_mm2s_mngr.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm_sg_if.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm_sm.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm_cmdsts_if.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm_sts_mngr.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm_sts_strm.vhd vhdl
+lib zycap_v1_00_a axi_dma_s2mm_mngr.vhd vhdl
+lib zycap_v1_00_a axi_dma.vhd vhdl

@@ -1,0 +1,9 @@
+-batch 
+-create icap_stream 
+-ver 1.00.a 
+-dir F:\RESEARCH\3.Xilinx\Zynq\zed_custom_pr_icap\ 
+-lang verilog 
+-bus axi4stream s 
+-xps 
+-totalin 1
+-driver 

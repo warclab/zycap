@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          F:/RESEARCH/3.Xilinx/Zynq/zed_pr/pcores/reg_peripheral_v1_00_a/data/reg_peripheral_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Aug 06 12:28:49 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib reg_peripheral_v1_00_a user_logic verilog
+lib reg_peripheral_v1_00_a reg_peripheral vhdl

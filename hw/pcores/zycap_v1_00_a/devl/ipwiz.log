@@ -1,0 +1,33 @@
+
+----------------------------------------------------------------------------
+--                            File Generation                             --
+----------------------------------------------------------------------------
+No ProjNavigator support files will be generated at this time ...
+No XST project files will be generated at this time ...
+Start Creating drver source 
+
+----------------------------------------------------------------------------
+--                              Final Report                              --
+----------------------------------------------------------------------------
+Thank you for using Create and Import Peripheral Wizard!
+
+Peripheral summary
+
+  top name       : icap_stream
+  version        : 1.00.a
+  type           : AXI4STREAM slave
+  features       : 
+
+File Summary
+
+  - HDL source -
+F:\RESEARCH\3.Xilinx\Zynq\zed_custom_pr_icap\pcores\icap_stream_v1_00_a\hdl\vhdl
+  top level      : icap_stream.vhd
+
+  - Misc file -
+  F:\RESEARCH\3.Xilinx\Zynq\zed_custom_pr_icap\pcores\icap_stream_v1_00_a\devl
+  help           : README.txt
+  option         : ipwiz.opt
+  log            : ipwiz.log
+
+

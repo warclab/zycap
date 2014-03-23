@@ -1,0 +1,9 @@
+#
+# pin constraints
+#
+#
+# additional constraints
+INST "reg_peripheral_0/reg_peripheral_0/USER_LOGIC_I" AREA_GROUP = "pblock_reg_peripheral_0_USER_LOGIC_I";
+AREA_GROUP "pblock_reg_peripheral_0_USER_LOGIC_I" RANGE=SLICE_X28Y50:SLICE_X31Y99;
+
+

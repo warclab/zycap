@@ -1,0 +1,8 @@
+-batch 
+-create reg_peripheral 
+-ver 1.00.a 
+-dir "F:\RESEARCH\3.Xilinx\Zynq\zed_pr" 
+-lang verilog 
+-bus axi4lite s 
+-reg 2 
+-xps 
