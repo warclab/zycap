@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="0">
+	<BUILD_NUMBER Name="932637"/>
+	<FULL_BUILD Name="SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014"/>
+	<MODE Name="Pre-Synthesis"/>
+	<SYSTEMINFO BOARD="em.avnet.com:zed:part0:1.0" ARCH="zynq" PACKAGE="clg484" DEVICE="7z020" SPEED="-1"/>
+	<HIERARCHY Name="system_i"/>
+	<File Type="PS_FSBL_INIT" Name="ps7_init.c" ModTime="1453173475"/>
+	<File Type="PS_FSBL_INIT" Name="ps7_init.h" ModTime="1453173475"/>
+	<File Type="PS_XMD_INIT" Name="ps7_init.tcl" ModTime="1453173475"/>
+	<File Type="PS_INIT_HELP" Name="ps7_init.html" ModTime="1453173475"/>
+	<File Type="HW_HANDOFF" Name="system.hwh" ModTime="1453173433"/>
+</Project>
+

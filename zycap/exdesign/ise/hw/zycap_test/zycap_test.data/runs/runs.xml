@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="config_1" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc7z020clg484-1" LaunchPart="xc7z020clg484-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/config_1" LaunchTime="1453190339">
+		<File Type="MAP-PSR" Name="config_1.psr"/>
+		<File Type="PA-EDIF" Name="config_1.edf"/>
+		<File Type="PAR-NCD" Name="config_1_routed.ncd"/>
+		<File Type="PA-UCF" Name="config_1.ucf"/>
+		<File Type="PAR-PAD" Name="config_1_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="config_1_routed.par"/>
+		<File Type="PAR-UNR" Name="config_1_routed.unroutes"/>
+		<File Type="BG-BIT" Name="config_1.bit"/>
+		<File Type="BG-DRC" Name="config_1.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="config_1.bgn"/>
+		<File Type="TRCE-TWR" Name="config_1.twr"/>
+		<File Type="TRCE-TWX" Name="config_1.twx"/>
+		<File Type="XDL-XDL" Name="config_1_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/config_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/config_1/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/config_1/config_1.psg"/>
+		<File Type="NGDB-NGD" Name="config_1.ngd"/>
+		<File Type="NGDB-BLD" Name="config_1.bld"/>
+		<File Type="MAP-NCD" Name="config_1.ncd"/>
+		<File Type="MAP-PCF" Name="config_1.pcf"/>
+		<File Type="MAP-MRP" Name="config_1.mrp"/>
+		<File Type="MAP-MAP" Name="config_1.map"/>
+	</Run>
+	<Run Id="config_2" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc7z020clg484-1" LaunchPart="xc7z020clg484-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" Dir="$PRUNDIR/config_2" LaunchTime="1453190638">
+		<File Type="MAP-PSR" Name="config_2.psr"/>
+		<File Type="PA-EDIF" Name="config_2.edf"/>
+		<File Type="PAR-NCD" Name="config_2_routed.ncd"/>
+		<File Type="PA-UCF" Name="config_2.ucf"/>
+		<File Type="PAR-PAD" Name="config_2_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="config_2_routed.par"/>
+		<File Type="PAR-UNR" Name="config_2_routed.unroutes"/>
+		<File Type="BG-BIT" Name="config_2.bit"/>
+		<File Type="BG-DRC" Name="config_2.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="config_2.bgn"/>
+		<File Type="TRCE-TWR" Name="config_2.twr"/>
+		<File Type="TRCE-TWX" Name="config_2.twx"/>
+		<File Type="XDL-XDL" Name="config_2_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/config_2/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/config_2/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/config_2/config_2.psg"/>
+		<File Type="NGDB-NGD" Name="config_2.ngd"/>
+		<File Type="NGDB-BLD" Name="config_2.bld"/>
+		<File Type="MAP-NCD" Name="config_2.ncd"/>
+		<File Type="MAP-PCF" Name="config_2.pcf"/>
+		<File Type="MAP-MRP" Name="config_2.mrp"/>
+		<File Type="MAP-MAP" Name="config_2.map"/>
+	</Run>
+</Runs>
+

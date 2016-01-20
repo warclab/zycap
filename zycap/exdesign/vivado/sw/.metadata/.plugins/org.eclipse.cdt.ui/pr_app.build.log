@@ -1,0 +1,77 @@
+14:27:37 **** Build of configuration Debug for project pr_app ****
+make all 
+Building file: ../src/devcfg.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/devcfg.d" -MT"src/devcfg.d" -o "src/devcfg.o" "../src/devcfg.c"
+Finished building: ../src/devcfg.c
+ 
+Building file: ../src/ff.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+Finished building: ../src/ff.c
+ 
+Building file: ../src/mmc.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+Finished building: ../src/mmc.c
+ 
+Building file: ../src/xaxidma.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma.d" -MT"src/xaxidma.d" -o "src/xaxidma.o" "../src/xaxidma.c"
+Finished building: ../src/xaxidma.c
+ 
+Building file: ../src/xaxidma_bd.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_bd.d" -MT"src/xaxidma_bd.d" -o "src/xaxidma_bd.o" "../src/xaxidma_bd.c"
+Finished building: ../src/xaxidma_bd.c
+ 
+Building file: ../src/xaxidma_bdring.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_bdring.d" -MT"src/xaxidma_bdring.d" -o "src/xaxidma_bdring.o" "../src/xaxidma_bdring.c"
+Finished building: ../src/xaxidma_bdring.c
+ 
+Building file: ../src/xaxidma_g.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_g.d" -MT"src/xaxidma_g.d" -o "src/xaxidma_g.o" "../src/xaxidma_g.c"
+Finished building: ../src/xaxidma_g.c
+ 
+Building file: ../src/xaxidma_sinit.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_sinit.d" -MT"src/xaxidma_sinit.d" -o "src/xaxidma_sinit.o" "../src/xaxidma_sinit.c"
+Finished building: ../src/xaxidma_sinit.c
+ 
+Building file: ../src/zycap.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/zycap.d" -MT"src/zycap.d" -o "src/zycap.o" "../src/zycap.c"
+../src/zycap.c: In function 'print_schedule':
+../src/zycap.c:91:9: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'struct bit_info *' [-Wformat=]
+         printf("BS Num : %d BS Name : %s  BS Prev %s BS Next %s\n",i,current_bs->name,current_bs->prev,current_bs->next);
+         ^
+../src/zycap.c:91:9: warning: format '%s' expects argument of type 'char *', but argument 5 has type 'struct bit_info *' [-Wformat=]
+../src/zycap.c:91:9: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'struct bit_info *' [-Wformat=]
+../src/zycap.c:91:9: warning: format '%s' expects argument of type 'char *', but argument 5 has type 'struct bit_info *' [-Wformat=]
+../src/zycap.c: At top level:
+../src/zycap.c:84:6: warning: 'print_schedule' defined but not used [-Wunused-function]
+ void print_schedule(bs_info *bs_list)
+      ^
+Finished building: ../src/zycap.c
+ 
+Building file: ../src/zynq_pr.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/zynq_pr.d" -MT"src/zynq_pr.d" -o "src/zynq_pr.o" "../src/zynq_pr.c"
+Finished building: ../src/zynq_pr.c
+ 
+Building target: pr_app.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "pr_app.elf"  ./src/devcfg.o ./src/ff.o ./src/mmc.o ./src/xaxidma.o ./src/xaxidma_bd.o ./src/xaxidma_bdring.o ./src/xaxidma_g.o ./src/xaxidma_sinit.o ./src/zycap.o ./src/zynq_pr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: pr_app.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size pr_app.elf  |tee "pr_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 105076	   3112	  31612	 139800	  22218	pr_app.elf
+Finished building: pr_app.elf.size
+ 
+
+14:27:43 Build Finished (took 6s.123ms)
+

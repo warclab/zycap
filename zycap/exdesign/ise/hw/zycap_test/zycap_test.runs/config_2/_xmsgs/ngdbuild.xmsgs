@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_PORB_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_CLK_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="info" file="NgdBuild" num="649" delta="new" >Removing redundant &apos;<arg fmt="%s" index="1">IBUF</arg>&apos; symbol &apos;<arg fmt="%s" index="2">processing_system7_0_PS_SRSTB_IBUF</arg>&apos;.  All constraints associated with this symbol will be ignored.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi4lite_0_reset_source =   FFS  PADS  CPUS;&gt; [config_2.ucf(12)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi_interconnect_1_reset_source =   FFS  PADS  CPUS;&gt; [config_2.ucf(20)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+</messages>
+

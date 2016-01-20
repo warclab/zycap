@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<PromoteLog Version="1" Minor="2">
+	<Run Name="config_1">
+	</Run>
+	<Partitions Names="system|partial_led_test_0/partial_led_test_0/USER_LOGIC_I">
+	</Partitions>
+	<UserNote Text="">
+	</UserNote>
+</PromoteLog>
+

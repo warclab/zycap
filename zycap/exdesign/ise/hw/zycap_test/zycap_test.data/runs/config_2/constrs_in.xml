@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/implementation/system_axi4lite_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../xps/implementation/system_axi4lite_0_wrapper.ncf"/>
+        <Attr Name="ImportTime" Val="1453189778"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/implementation/system_axi_interconnect_1_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../xps/implementation/system_axi_interconnect_1_wrapper.ncf"/>
+        <Attr Name="ImportTime" Val="1450680736"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../xps/implementation/system_processing_system7_0_wrapper.ncf"/>
+        <Attr Name="ImportTime" Val="1450679937"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/zycap_test/top_io.ucf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/top_io.ucf"/>
+        <Attr Name="ImportTime" Val="1450767695"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PDATADIR/constrs_1/designprops.xml">
+      <FileInfo SFType="CompatPartsDb"/>
+    </File>
+    <File Path="$PDATADIR/constrs_1/usercols.xml">
+      <FileInfo SFType="UserColsDb"/>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/zycap_test/top_io.ucf"/>
+      <Option Name="ConstrsType" Val="UCF"/>
+    </Config>
+  </FileSet>
+</DARoots>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PartialReconfig Version="1" Minor="8">
+	<Partitions>
+		<Partition Name="system" Reconfigurable="FALSE">
+			<Partition Name="partial_led_test_0/partial_led_test_0/USER_LOGIC_I" CurrPRModule="module_2" Reconfigurable="TRUE">
+				<PRModule Name="module_1" Blackbox="TRUE">
+				</PRModule>
+				<PRModule Name="module_2">
+				</PRModule>
+				<PRModule Name="module_3">
+				</PRModule>
+			</Partition>
+		</Partition>
+	</Partitions>
+	<Configs>
+		<Config Name="config_1" State="INITIAL" RunType="Implementation">
+			<PRConfigInst PRInst="system" State="IMPLEMENT">
+			</PRConfigInst>
+			<PRConfigInst PRInst="partial_led_test_0/partial_led_test_0/USER_LOGIC_I" PRModule="module_2" State="IMPLEMENT">
+			</PRConfigInst>
+		</Config>
+	</Configs>
+</PartialReconfig>
+

@@ -1,0 +1,39 @@
+Release 14.7 - pr_verify P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Tue Jan 19 16:08:29 2016
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\pr_verify.exe -o
+./pr_verify.log
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_1/config_1_routed.ncd
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_2/config_2_routed.ncd
+
+Loading
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_1/config_1_routed.ncd:  Tue Jan 19 16:03:16 2016
+Loading
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_2/config_2_routed.ncd:  Tue Jan 19 16:07:52 2016
+
+----------------------------------------
+Analyzing Designs:
+ 
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_1/config_1_routed.ncd
+ 
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_2/config_2_routed.ncd
+
+  Number of matched proxy logic bels          = 88
+  Number of matched external nets             = 86
+  Number of matched global clock nets         = 2
+  Number of matched Reconfigurable Partitions = 0
+
+Verification completed successfully!
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\pr_verify.exe
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_1/config_1_routed.ncd
+D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.ru
+ns/config_2/config_2_routed.ncd => PASS

@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          D:/SHS/Research/zycap_master_repo/zycap/core/ise/MyProcessorIPLib/pcores/partial_led_test_v1_00_a/data/partial_led_test_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Dec 21 14:06:03 2015 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib partial_led_test_v1_00_a partial_led_test_0 verilog
+lib partial_led_test_v1_00_a partial_led_test vhdl

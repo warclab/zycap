@@ -1,0 +1,8 @@
+-batch 
+-create partial_led_test 
+-ver 1.00.a 
+-dir "D:\SHS\Research\zycap_master_repo\zycap\core\ise\MyProcessorIPLib" 
+-lang verilog 
+-bus axi4lite s 
+-reg 4 
+-xps 

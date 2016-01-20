@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="partial_led_test_0~partial_led_test_0~USER_LOGIC_I#module_2" Type="Reconfig" RelSrcDir="$PSRCDIR/partial_led_test_0~partial_led_test_0~USER_LOGIC_I#module_2">
+    <Filter Type=""/>
+    <File Path="$PSRCDIR/partial_led_test_0~partial_led_test_0~USER_LOGIC_I#module_2/imports/mode1/partial_led_test_0.ngc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../modes/mode1/partial_led_test_0.ngc"/>
+        <Attr Name="ImportTime" Val="1450693713"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="GateLvl"/>
+      <Option Name="GateLvlMode" Val="EDIF"/>
+      <Option Name="TopFile" Val="$PSRCDIR/partial_led_test_0~partial_led_test_0~USER_LOGIC_I#module_2/imports/mode1/partial_led_test_0.ngc"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="Partition" Val="partial_led_test_0/partial_led_test_0/USER_LOGIC_I"/>
+      <Option Name="ReconfigModule" Val="module_2"/>
+    </Config>
+  </FileSet>
+</DARoots>

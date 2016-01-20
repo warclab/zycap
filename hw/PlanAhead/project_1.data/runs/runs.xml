@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="8">
-	<Run Id="config_1" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current"/>
-	<Run Id="config_2" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off"/>
-</Runs>
-

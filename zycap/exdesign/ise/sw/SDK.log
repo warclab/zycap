@@ -1,0 +1,11 @@
+16:02:04.947 INFO  - Processing command line option -hwspec D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\system.xml. 
+16:02:05.090 INFO  - The hardware specification for project 'exdesign' is different from D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\system.xml. 
+16:02:05.572 INFO  - Copied contents of D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\system.xml into \exdesign\system.xml. 
+16:02:05.582 INFO  - Copied contents of D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\ps7_init.c into \exdesign\ps7_init.c. 
+16:02:05.592 INFO  - Copied contents of D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\ps7_init.h into \exdesign\ps7_init.h. 
+16:02:05.602 INFO  - Copied contents of D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\ps7_init.html into \exdesign\ps7_init.html. 
+16:02:05.602 INFO  - Copied contents of D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\SDK\SDK_Export\hw\ps7_init.tcl into \exdesign\ps7_init.tcl. 
+16:02:05.772 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:02:06.002 INFO  - Clearing existing target manager status. 
+16:02:07.012 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:05:58.724 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

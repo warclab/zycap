@@ -1,0 +1,75 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -p xc7z020clg484-1 -dd _ngo -uc config_2.ucf config_2.edf
+
+Executing edif2ngd -quiet "config_2.edf" "_ngo\config_2.ngo"
+Release 14.7 - edif2ngd P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading NGO file
+"D:/SHS/Research/zycap_master_repo/zycap/exdesign/ise/hw/zycap_test/zycap_test.r
+uns/config_2/_ngo/config_2.ngo" ...
+-----------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+-----------------------------------------------
+
+-----------------------------------------------
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_PORB_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_CLK_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_SRSTB_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+
+Annotating constraints to design from ucf file "config_2.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi4lite_0_reset_source =  
+   FFS  PADS  CPUS;> [config_2.ucf(12)]: CPUS "*" does not match any design
+   objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   axi_interconnect_1_reset_source =   FFS  PADS  CPUS;> [config_2.ucf(20)]:
+   CPUS "*" does not match any design objects.
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  Preserved Partitions:
+
+    Partition "/system"
+
+
+  Implemented Partitions:
+
+    Partition "/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I"
+(Reconfigurable Module "module_3"):
+Attribute STATE set to IMPLEMENT.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 310256 kilobytes
+
+Writing NGD file "config_2.ngd" ...
+Total REAL time to NGDBUILD completion:  26 sec
+Total CPU time to NGDBUILD completion:   17 sec
+
+Writing NGDBUILD log file "config_2.bld"...

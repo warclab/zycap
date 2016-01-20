@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="SWs_8Bits_TRI_IO">
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="BTNs_5Bits_TRI_IO">
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_MIO">
+			<Port Id="53" Dir="INOUT"/>
+			<Port Id="52" Dir="INOUT"/>
+			<Port Id="51" Dir="INOUT"/>
+			<Port Id="50" Dir="INOUT"/>
+			<Port Id="49" Dir="INOUT"/>
+			<Port Id="48" Dir="INOUT"/>
+			<Port Id="47" Dir="INOUT"/>
+			<Port Id="46" Dir="INOUT"/>
+			<Port Id="45" Dir="INOUT"/>
+			<Port Id="44" Dir="INOUT"/>
+			<Port Id="43" Dir="INOUT"/>
+			<Port Id="42" Dir="INOUT"/>
+			<Port Id="41" Dir="INOUT"/>
+			<Port Id="40" Dir="INOUT"/>
+			<Port Id="39" Dir="INOUT"/>
+			<Port Id="38" Dir="INOUT"/>
+			<Port Id="37" Dir="INOUT"/>
+			<Port Id="36" Dir="INOUT"/>
+			<Port Id="35" Dir="INOUT"/>
+			<Port Id="34" Dir="INOUT"/>
+			<Port Id="33" Dir="INOUT"/>
+			<Port Id="32" Dir="INOUT"/>
+			<Port Id="31" Dir="INOUT"/>
+			<Port Id="30" Dir="INOUT"/>
+			<Port Id="29" Dir="INOUT"/>
+			<Port Id="28" Dir="INOUT"/>
+			<Port Id="27" Dir="INOUT"/>
+			<Port Id="26" Dir="INOUT"/>
+			<Port Id="25" Dir="INOUT"/>
+			<Port Id="24" Dir="INOUT"/>
+			<Port Id="23" Dir="INOUT"/>
+			<Port Id="22" Dir="INOUT"/>
+			<Port Id="21" Dir="INOUT"/>
+			<Port Id="20" Dir="INOUT"/>
+			<Port Id="19" Dir="INOUT"/>
+			<Port Id="18" Dir="INOUT"/>
+			<Port Id="17" Dir="INOUT"/>
+			<Port Id="16" Dir="INOUT"/>
+			<Port Id="15" Dir="INOUT"/>
+			<Port Id="14" Dir="INOUT"/>
+			<Port Id="13" Dir="INOUT"/>
+			<Port Id="12" Dir="INOUT"/>
+			<Port Id="11" Dir="INOUT"/>
+			<Port Id="10" Dir="INOUT"/>
+			<Port Id="9" Dir="INOUT"/>
+			<Port Id="8" Dir="INOUT"/>
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_DDR_BankAddr">
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_DDR_Addr">
+			<Port Id="14" Dir="INOUT"/>
+			<Port Id="13" Dir="INOUT"/>
+			<Port Id="12" Dir="INOUT"/>
+			<Port Id="11" Dir="INOUT"/>
+			<Port Id="10" Dir="INOUT"/>
+			<Port Id="9" Dir="INOUT"/>
+			<Port Id="8" Dir="INOUT"/>
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_DDR_DQ">
+			<Port Id="31" Dir="INOUT"/>
+			<Port Id="30" Dir="INOUT"/>
+			<Port Id="29" Dir="INOUT"/>
+			<Port Id="28" Dir="INOUT"/>
+			<Port Id="27" Dir="INOUT"/>
+			<Port Id="26" Dir="INOUT"/>
+			<Port Id="25" Dir="INOUT"/>
+			<Port Id="24" Dir="INOUT"/>
+			<Port Id="23" Dir="INOUT"/>
+			<Port Id="22" Dir="INOUT"/>
+			<Port Id="21" Dir="INOUT"/>
+			<Port Id="20" Dir="INOUT"/>
+			<Port Id="19" Dir="INOUT"/>
+			<Port Id="18" Dir="INOUT"/>
+			<Port Id="17" Dir="INOUT"/>
+			<Port Id="16" Dir="INOUT"/>
+			<Port Id="15" Dir="INOUT"/>
+			<Port Id="14" Dir="INOUT"/>
+			<Port Id="13" Dir="INOUT"/>
+			<Port Id="12" Dir="INOUT"/>
+			<Port Id="11" Dir="INOUT"/>
+			<Port Id="10" Dir="INOUT"/>
+			<Port Id="9" Dir="INOUT"/>
+			<Port Id="8" Dir="INOUT"/>
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_DDR_DM">
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_DDR_DQS">
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="processing_system7_0_DDR_DQS_n">
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="leds">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="processing_system7_0_PS_SRSTB" Dir="IN"/>
+		<Port Id="processing_system7_0_PS_CLK" Dir="IN"/>
+		<Port Id="processing_system7_0_PS_PORB" Dir="IN"/>
+		<Port Id="processing_system7_0_DDR_Clk" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_Clk_n" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_CKE" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_CS_n" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_RAS_n" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_CAS_n" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_WEB_pin" Dir="OUT"/>
+		<Port Id="processing_system7_0_DDR_ODT" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_DRSTB" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_VRN" Dir="INOUT"/>
+		<Port Id="processing_system7_0_DDR_VRP" Dir="INOUT"/>
+	</Ifc>
+</Interface>
+

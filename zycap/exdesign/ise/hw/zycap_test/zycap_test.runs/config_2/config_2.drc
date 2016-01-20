@@ -1,0 +1,21 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Jan 19 16:11:51 2016
+
+drc -z config_2_routed.ncd config_2.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slo
+   t[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_ins
+   t/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/
+   grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slo
+   t[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_ins
+   t/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfif
+   o.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is incomplete.
+   The signal does not drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

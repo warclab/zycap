@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -b -w -p bin -data_width 32 -u 0 config_2_partial.bit -o mode2.bin 
+
+PROM mode2.prm map: Tue Jan 19 16:29:07 2016
+
+Format        Bin
+Size          128K
+PROM start    00000000
+PROM end      0001ffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     000158db     Jan 19 16:19:16 2016 config_2_partial.bit

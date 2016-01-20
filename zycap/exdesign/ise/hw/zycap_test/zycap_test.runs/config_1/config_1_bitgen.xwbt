@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\zycap_test\zycap_test.runs\config_1\config_1_routed.ncd
+OUTFILE=D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\zycap_test\zycap_test.runs\config_1\config_1.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\zycap_test\zycap_test.runs\config_1
+LICENSE=ISE
+USER_INFO=179624505_206273298_210558848_344

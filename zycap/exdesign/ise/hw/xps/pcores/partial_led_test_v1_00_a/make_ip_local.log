@@ -1,0 +1,12 @@
+
+This core was made local using the MakeIPLocal tool. 
+
+Env variables when core was made local are as follows: 
+
+XILINX = C:\Xilinx\14.7\ISE_DS\ISE\;C:\Xilinx\14.7\ISE_DS\EDK 
+XILINX_EDK = C:\Xilinx\14.7\ISE_DS\EDK 
+
+Repository from which the core was copied = D:\SHS\Research\zycap_master_repo\zycap\core\ise\ipcore\ 
+
+The following helper cores were copied as a part of making this core local: 
+

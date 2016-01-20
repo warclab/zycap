@@ -1,0 +1,5 @@
+the_ROM_image:
+{
+	mode1_pblock_partial_led_test_0_partial.bit
+	mode2_pblock_partial_led_test_0_partial.bit
+}

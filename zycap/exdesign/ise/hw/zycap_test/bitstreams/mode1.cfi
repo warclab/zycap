@@ -1,0 +1,10 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            01/19/2016 - 16:28
+SOURCE          mode1.bin
+DEVICE          128K
+DATA_WIDTH      32
+FILL_DATA       0xFF
+START_ADDRESS   0x00000000 END_ADDRESS 0x000158DB DIRECTION_UP   "config_1_partial.bit" 7z020clg484

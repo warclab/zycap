@@ -1,0 +1,14 @@
+set -tmpdir D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\synthesis\xst_temp_dir\
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc7z020clg484-1
+-top system_sws_8bits_wrapper
+-ifmt MIXED
+-ifn system_sws_8bits_wrapper_xst.prj
+-ofn ../implementation/system_sws_8bits_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation}
+-vlgincdir {"D:\SHS\Research\zycap_master_repo\zycap\exdesign\ise\hw\xps\pcores\" "D:\SHS\Research\zycap_master_repo\zycap\core\ise\MyProcessorIPLib\pcores\" "D:\SHS\Research\zycap_master_repo\zycap\core\ise\ipcore\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

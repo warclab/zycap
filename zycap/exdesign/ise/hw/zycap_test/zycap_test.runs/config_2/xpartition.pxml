@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Project Name="config_2" FileVersion="1.2" ProjectVersion="2.0">
+	<Partition Name="/system" State="import" ImportLocation="../../zycap_test.promote/Xconfig_1" Preserve="routing">
+		<Partition Name="/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I" State="implement" ImportLocation="NONE" Reconfigurable="true" ReconfigModuleName="module_3">
+		</Partition>
+	</Partition>
+</Project>
+

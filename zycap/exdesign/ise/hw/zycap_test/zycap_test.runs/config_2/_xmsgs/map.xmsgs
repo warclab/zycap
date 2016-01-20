@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="702" delta="new" ><arg fmt="%s" index="1">PAD symbol &quot;processing_system7_0_PS_PORB&quot;</arg> is not constrained (LOC) to a specific location.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">axi4lite_0_M_WSTRB[0]</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">1339</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">axi4lite_0_M_WSTRB[13],
+axi4lite_0_M_WSTRB[10],
+axi4lite_0_M_WSTRB[11],
+axi4lite_0_S_ARQOS[0],
+axi4lite_0_S_ARQOS[1]</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="warning" file="MapLib" num="933" delta="new" >Input port &quot;<arg fmt="%s" index="1">Bus2IP_BE(3)</arg>&quot; on Partition &quot;<arg fmt="%s" index="2">/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I</arg>&quot; is driven by constant signal &quot;<arg fmt="%s" index="3">partial_led_test_0/N1</arg>&quot;.
+</msg>
+
+<msg type="warning" file="MapLib" num="933" delta="new" >Input port &quot;<arg fmt="%s" index="1">Bus2IP_BE(2)</arg>&quot; on Partition &quot;<arg fmt="%s" index="2">/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I</arg>&quot; is driven by constant signal &quot;<arg fmt="%s" index="3">partial_led_test_0/N1</arg>&quot;.
+</msg>
+
+<msg type="warning" file="MapLib" num="933" delta="new" >Input port &quot;<arg fmt="%s" index="1">Bus2IP_BE(1)</arg>&quot; on Partition &quot;<arg fmt="%s" index="2">/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I</arg>&quot; is driven by constant signal &quot;<arg fmt="%s" index="3">partial_led_test_0/N1</arg>&quot;.
+</msg>
+
+<msg type="warning" file="MapLib" num="933" delta="new" >Input port &quot;<arg fmt="%s" index="1">Bus2IP_BE(0)</arg>&quot; on Partition &quot;<arg fmt="%s" index="2">/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I</arg>&quot; is driven by constant signal &quot;<arg fmt="%s" index="3">partial_led_test_0/N1</arg>&quot;.
+</msg>
+
+<msg type="warning" file="MapLib" num="1235" delta="new" >The undriven or constant signals indicate that further logic reduction is possible if the Partition &quot;<arg fmt="%s" index="1">/system/partial_led_test_0/partial_led_test_0/USER_LOGIC_I</arg>&quot; is removed.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="new" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="new" >Initializing voltage to <arg fmt="%0.3f" index="1">0.950</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">0.950</arg> to <arg fmt="%0.3f" index="3">1.050</arg> Volts)
+</msg>
+
+<msg type="info" file="Timing" num="3386" delta="new" >Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.</msg>
+
+<msg type="info" file="Map" num="215" delta="new" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="info" file="Pack" num="1650" delta="new" >Map created a placed design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">axi_interconnect_1/axi_interconnect_1/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+</messages>
+
