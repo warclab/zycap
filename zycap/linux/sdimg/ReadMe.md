@@ -1,0 +1,1 @@
+Download the Linux image (zylinux.imz file for ZedBoard) from https://dl.dropboxusercontent.com/u/51382147/zylinux.imz into this folder.
