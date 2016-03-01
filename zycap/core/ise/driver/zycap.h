@@ -78,6 +78,12 @@ typedef struct bit_info{
 
 /******************************************************************/
 
+/******************************************************************/
+/* Remapping the old PRR reg-address to the new PRR module address */
+#ifndef XPAR_REG_PERIPHERAL_0_BASEADDR
+#define XPAR_REG_PERIPHERAL_0_BASEADDR XPAR_PARTIAL_LED_TEST_0_BASEADDR // This is needed only for the XPS-PA flow.
+
+
 #define RESET_TIMEOUT_COUNTER	10000
 
 #define XDCFG_CTRL_ICAP_PR_MASK	  	0xF7FFFFFF /**< Disable PCAP for PR */
