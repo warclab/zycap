@@ -46,7 +46,7 @@ int main()
 	XTmrCtr_Start(&TimerCounterInst, 0);
 	//Send config2 partial bitstream to the ICAP with reset sync bit set
 	Status = Config_PR_Bitstream("config2.bin",1);
-	if (Status != XST_SUCCESS){
+	if (Status == XST_FAILURE){
 		xil_printf("Reconfiguration failed\r\n",Status);
 		return XST_FAILURE;
 	}
